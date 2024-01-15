@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">DonApp</string>
     <string name="title">DonApp</string>
+    <string name="user">User Access</string>
+    <string name="login">Login</string>
+    <string name="reg">Register</string>
+    <string name="hospital">Hospital Access</string>
+    <string name="cod_hosp">Enter your hospital code</string>
+    <string name="hosp_enter">Enter</string>
+    <string name="mail">Enter Mail</string>
+    <string name="password">Enter Password</string>
+    <string name="UserLog">Login User</string>
 </resources>
