@@ -13,6 +13,30 @@
         android:theme="@style/Theme.DonApp"
         tools:targetApi="31">
         <activity
+            android:name=".BookDonation"
+            android:exported="false" />
+        <activity
+            android:name=".HospContact"
+            android:exported="false" />
+        <activity
+            android:name=".ModCredentials"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalData"
+            android:exported="false" />
+        <activity
+            android:name=".HospInterface"
+            android:exported="false" />
+        <activity
+            android:name=".UserInterface"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterUser"
+            android:exported="false" />
+        <activity
+            android:name=".LoginUser"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

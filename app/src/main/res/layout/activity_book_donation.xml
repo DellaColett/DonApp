@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_donation"
+        android:gravity="center_horizontal"
+        android:textSize="28sp"
+        android:layout_marginBottom="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/blood"
+            android:layout_marginRight="25dp"/>
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/plasma"
+            android:layout_marginRight="25dp"/>
+        <RadioButton
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/platelets" />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/donation_date"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/book"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donations"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/donations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

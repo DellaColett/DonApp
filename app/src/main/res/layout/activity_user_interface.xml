@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="150dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/personal_data"
+            android:onClick="persData"/>
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/donation_forms"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="@string/hospital_data"
+            android:onClick="hospData"/>
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/book_donation"
+            android:onClick="bookDon"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/modify_credentials"
+        android:onClick="modCred"/>
+
+</LinearLayout>
