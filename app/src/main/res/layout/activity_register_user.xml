@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/credentials"
+            android:textSize="28sp"
+            android:gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/reg_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mail" />
+        <EditText android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password" />
+        <EditText android:id="@+id/reg_confirm_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirm_password" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_data"
+            android:textSize="28sp"
+            android:gravity="center_horizontal"/>
+        <EditText android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name" />
+        <EditText android:id="@+id/reg_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/surname" />
+        <EditText android:id="@+id/reg_CF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/CF" />
+        <EditText android:id="@+id/reg_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/birth"
+            android:inputType="date"/>
+        <EditText android:id="@+id/reg_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:inputType="phone"/>
+        <Spinner
+            android:id="@+id/sex_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"/>
+        <EditText android:id="@+id/reg_last_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_blood"
+            android:inputType="date"/>
+        <EditText android:id="@+id/reg_last_plasma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_plasma"
+            android:inputType="date"/>
+        <EditText android:id="@+id/reg_last_plat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/last_platelets"
+            android:inputType="date"/>
+        <Spinner
+            android:id="@+id/province_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+        <Spinner
+            android:id="@+id/blood_type_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reg"
+            android:layout_gravity="center_horizontal"
+            android:onClick="userInt"/>
+    </LinearLayout>
+</ScrollView>

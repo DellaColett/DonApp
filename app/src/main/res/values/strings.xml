@@ -10,4 +10,62 @@
     <string name="mail">Enter Mail</string>
     <string name="password">Enter Password</string>
     <string name="UserLog">Login User</string>
+    <string name="credentials">Credentials</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="personal_data">Personal Data</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="CF">C.F.</string>
+    <string name="birth">Birth</string>
+    <string name="phone">Phone Number</string>
+    <string name="last_blood">Last Blood Donation</string>
+    <string name="last_plasma">Last Plasma Donation</string>
+    <string name="last_platelets">Last Platelets Donation</string>
+    <string name="welcome">Welcome</string>
+    <string name="donation_forms">Donation Forms</string>
+    <string name="hospital_data">Hospital Data</string>
+    <string name="modify_credentials">Modify Credentials</string>
+    <string name="book_donation">Book Donation</string>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="blood_array">
+        <item>0-</item>
+        <item>0+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+    <string-array name="province_array">
+        <item>BO</item>
+        <item>FG</item>
+        <item>MI</item>
+        <item>NA</item>
+        <item>TO</item>
+        <item>RM</item>
+        <item>VT</item>
+    </string-array>
+    <string name="blood">Blood</string>
+    <string name="plasma">Plasma</string>
+    <string name="platelets">Platelets</string>
+    <string name="filters">Filters</string>
+    <string name="av_donors">Available Donors</string>
+    <string name="all_donors">All Donors</string>
+    <string name="search">Search</string>
+    <string name="list">List</string>
+    <string name="blood_type">Blood Type</string>
+    <string name="changes">Confirm Changes</string>
+    <string name="new_mail">Enter New Mail</string>
+    <string name="conf_new_mail">Confirm New Mail</string>
+    <string name="prev_password">Previous Password</string>
+    <string name="new_password">Enter New Password</string>
+    <string name="conf_new_password">Confirm new Password</string>
+    <string name="donation_date">Enter the date you prefer</string>
+    <string name="book">Book</string>
+    <string name="donations">Your Donations</string>
 </resources>

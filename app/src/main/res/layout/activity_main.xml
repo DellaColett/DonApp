@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    android:padding="15pt">
+    android:padding="15dp">
 
     <TextView
         android:layout_width="match_parent"
@@ -50,11 +50,13 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/cod_hosp"/>
+        android:hint="@string/cod_hosp"
+        android:gravity="center"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hosp_enter"
-        android:onClick="enterHosp"/>
+        android:onClick="enterHosp"
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

@@ -17,4 +17,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LoginUser.class);
         startActivity(intent);
     }
+
+    public void regUser(View view){
+        Intent intent = new Intent(this, RegisterUser.class);
+        startActivity(intent);
+    }
+
+    public void enterHosp(View view){
+        Intent intent = new Intent(this, HospInterface.class);
+        startActivity(intent);
+    }
 }

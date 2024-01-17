@@ -3,14 +3,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="15pt"
+    android:padding="30dp"
     android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/UserLog"
         android:textSize="30sp"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,5 +25,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:onClick="userInt"/>
 </LinearLayout>
