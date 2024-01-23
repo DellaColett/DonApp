@@ -19,31 +19,38 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
+            android:id="@+id/book_blood"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/blood"
             android:layout_marginRight="25dp"/>
         <RadioButton
+            android:id="@+id/book_plasma"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/plasma"
             android:layout_marginRight="25dp"/>
         <RadioButton
+            android:id="@+id/book_plat"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/platelets" />
     </RadioGroup>
 
     <EditText
+        android:id="@+id/book_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/donation_date"
+        android:inputType="date"
         android:layout_marginTop="10dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/book"/>
+        android:layout_marginTop="20dp"
+        android:text="@string/book"
+        android:onClick="book"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

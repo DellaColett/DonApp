@@ -19,16 +19,19 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <RadioButton
+            android:id="@+id/radio_blood"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/blood"
             android:layout_marginRight="25dp"/>
         <RadioButton
+            android:id="@+id/radio_plasma"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/plasma"
             android:layout_marginRight="25dp"/>
         <RadioButton
+            android:id="@+id/radio_platelets"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/platelets" />
@@ -40,10 +43,12 @@
         android:orientation="horizontal"
         android:layout_marginTop="10dp">
         <RadioButton
+            android:id="@+id/radio_av"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:text="@string/av_donors"/>
         <RadioButton
+            android:id="@+id/radio_all"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -51,7 +56,7 @@
     </RadioGroup>
 
     <Spinner
-        android:id="@+id/blood_type_spinner"
+        android:id="@+id/b_type_spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
@@ -62,7 +67,8 @@
         android:layout_height="wrap_content"
         android:text="@string/search"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:onClick="searchBtn"/>
 
     <TextView
         android:layout_width="match_parent"

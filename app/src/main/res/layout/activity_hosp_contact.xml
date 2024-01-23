@@ -34,11 +34,14 @@
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
         android:layout_gravity="center_horizontal"
-        android:text="phone image"/>
+        android:src="@drawable/phone"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        android:onClick="callHosp"/>
 
 
 </LinearLayout>

@@ -3,6 +3,8 @@ package com.example.donapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -28,6 +30,10 @@ public class UserInterface extends AppCompatActivity {
     }
     public void hospData(View view){
         Intent intent = new Intent(this, HospContact.class);
+        startActivity(intent);
+    }
+    public void browse(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bologna.avisemiliaromagna.it/wp-content/uploads/2020/04/Questionario-Anamnestico2020.pdf"));
         startActivity(intent);
     }
 }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DonApp</string>
+    <string name="title">DonApp</string>
+    <string name="user">Accesso Utente</string>
+    <string name="login">Login</string>
+    <string name="reg">Registrati</string>
+    <string name="hospital">Accesso Ospedale</string>
+    <string name="cod_hosp">Inserisci codice ospedale</string>
+    <string name="hosp_enter">Entra</string>
+    <string name="mail">Inserisci Mail</string>
+    <string name="password">Inserisci Password</string>
+    <string name="UserLog">Login Utente</string>
+    <string name="credentials">Credenziali</string>
+    <string name="confirm_password">Conferma Password</string>
+    <string name="personal_data">Dati Personali</string>
+    <string name="reg_mail">Inserisci Mail*</string>
+    <string name="reg_name">Nome*</string>
+    <string name="reg_surname">Cognome*</string>
+    <string name="reg_CF">C.F.*</string>
+    <string name="reg_birth">Data di nascita (dd/mm/yyyy)*</string>
+    <string name="reg_phone">Telefono*</string>
+    <string name="name">Nome</string>
+    <string name="surname">Cognome</string>
+    <string name="CF">C.F.</string>
+    <string name="birth">Data di nascita</string>
+    <string name="phone">Telefono</string>
+    <string name="last_blood">Ultima donazione di Sangue (dd/mm/yyyy)</string>
+    <string name="last_plasma">Ultima donazione di Plasma (dd/mm/yyyy)</string>
+    <string name="last_platelets">Ultima donazione di Piastrine (dd/mm/yyyy)</string>
+    <string name="welcome">Benvenuto</string>
+    <string name="donation_forms">Moduli Donazione</string>
+    <string name="hospital_data">Dati Ospedale</string>
+    <string name="modify_credentials">Modidica Credenziali</string>
+    <string name="book_donation">Prenota Donazione</string>
+    <string-array name="sex_array">
+        <item>Uomo</item>
+        <item>Donna</item>
+        <item>Altro</item>
+    </string-array>
+    <string-array name="blood_array">
+        <item>0-</item>
+        <item>0+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+    <string-array name="province_array">
+        <item>BO</item>
+        <item>FG</item>
+        <item>MI</item>
+        <item>NA</item>
+        <item>TO</item>
+        <item>RM</item>
+        <item>VT</item>
+    </string-array>
+    <string name="blood">Sangue</string>
+    <string name="plasma">Plasma</string>
+    <string name="platelets">Piastrine</string>
+    <string name="filters">Filtri</string>
+    <string name="av_donors">Donatori Disponibili</string>
+    <string name="all_donors">Tutti i Donatori</string>
+    <string name="search">Cerca</string>
+    <string name="list">Lista</string>
+    <string name="blood_type">Gruppo Sanguigno</string>
+    <string name="changes">Conferma Cambiamenti</string>
+    <string name="new_mail">Inserisci nuova mail</string>
+    <string name="conf_new_mail">Conferma nuova mail</string>
+    <string name="prev_password">Password precedente</string>
+    <string name="new_password">Inserisci nuova password</string>
+    <string name="conf_new_password">Conferma nuova password</string>
+    <string name="donation_date">Inserisci la data che preferisci (dd/mm/yyyy)</string>
+    <string name="book">Prenota</string>
+    <string name="donations">Le tue Donazioni</string>
+    <string name="forg_password">Password Dimenticata?</string>
+    <string name="change_password">Cambia Password</string>
+    <string name="mail_Check">Inserisci mail</string>
+    <string name="CF_Check">Inserisci CF</string>
+    <string-array name="province_array1">
+        <item>--</item>
+        <item>BO</item>
+        <item>FG</item>
+        <item>MI</item>
+        <item>NA</item>
+        <item>TO</item>
+        <item>RM</item>
+        <item>VT</item>
+    </string-array>
+</resources>

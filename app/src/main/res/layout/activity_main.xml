@@ -30,12 +30,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="3pt"
+            android:layout_marginEnd="5dp"
             android:text="@string/login"
             android:onClick="loginUser"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
             android:text="@string/reg"
             android:onClick="regUser"/>
     </LinearLayout>
@@ -48,6 +49,7 @@
         android:textSize="24sp"
         android:gravity="center"/>
     <EditText
+        android:id="@+id/hosp_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/cod_hosp"
@@ -58,5 +60,11 @@
         android:text="@string/hosp_enter"
         android:onClick="enterHosp"
         android:layout_gravity="center_horizontal"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hero"/>
 
 </LinearLayout>

@@ -149,11 +149,27 @@ public class RegisterUser extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "Mail already exists!", Toast.LENGTH_SHORT).show();
             }
         }
+        if(mail.isEmpty() || name.isEmpty() || surname.isEmpty() || CF.isEmpty() || birth.isEmpty() || phone.isEmpty()){
+            Toast.makeText(getApplicationContext(), "Mandatory info missing", Toast.LENGTH_SHORT).show();
+            confirm = false;
+        }
+
+        if(last_b.isEmpty()){
+            last_b = birth;
+        }
+        if(last_plasma.isEmpty()){
+            last_plasma = birth;
+        }
+        if(last_plat.isEmpty()){
+            last_plat = birth;
+        }
+
         if(confirm){
-            User user = new User(mail, password, name, surname, CF, birth, sex, phone, last_b, last_plasma, last_plat, prov, b_type);
+            String don = null;
+            User user = new User(mail, password, name, surname, CF, birth, sex, phone, last_b, last_plasma, last_plat, prov, b_type, don);
             userList.add(user);
             saveUser(userList);
-            Intent intent = new Intent(this, UserInterface.class);
+            Intent intent = new Intent(this, LoginUser.class);
             startActivity(intent);
         }
     }

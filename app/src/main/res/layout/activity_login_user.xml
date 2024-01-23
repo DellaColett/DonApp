@@ -13,18 +13,27 @@
         android:gravity="center_horizontal"
         android:layout_marginTop="150dp"/>
     <EditText
+        android:id="@+id/login_mail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/mail"
         android:inputType="textEmailAddress"/>
     <EditText
+        android:id="@+id/login_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"/>
     <Button
         android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/forg_password"
+        android:gravity="top"
+        android:onClick="forgPass"/>
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login"
         android:layout_gravity="center_horizontal"
-        android:onClick="userInt"/>
+        android:onClick="userInt"
+        android:layout_marginTop="15dp"/>
 </LinearLayout>
